@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="TestCases.FinalTest">
+        <methods>
+          <include name="searchByWriter"/>
+          <include name="refineByLanguage"/>
+          <include name="listView"/>
+          <include name="teardown"/>
+          <include name="shortby"/>
+          <include name="searchBook"/>
+          <include name="setup"/>
+          <include name="refineByTitle"/>
+          <include name="refineBybinding"/>
+        </methods>
+      </class> <!-- TestCases.FinalTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
