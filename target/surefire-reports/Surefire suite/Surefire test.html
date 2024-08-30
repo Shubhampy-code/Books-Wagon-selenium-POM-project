@@ -1,0 +1,180 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>20/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Aug 30 15:08:05 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>163 seconds (163042 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestCases.FinalTest.addToCart()'><b>addToCart</b><br>Test class: TestCases.FinalTest</td>
+<td></td>
+<td>4</td>
+<td>TestCases.FinalTest@bef2d72</td></tr>
+<tr>
+<td title='TestCases.FinalTest.refineByAvailability()'><b>refineByAvailability</b><br>Test class: TestCases.FinalTest</td>
+<td></td>
+<td>2</td>
+<td>TestCases.FinalTest@bef2d72</td></tr>
+<tr>
+<td title='TestCases.FinalTest.clearSearchBox()'><b>clearSearchBox</b><br>Test class: TestCases.FinalTest</td>
+<td></td>
+<td>1</td>
+<td>TestCases.FinalTest@bef2d72</td></tr>
+<tr>
+<td title='TestCases.FinalTest.InvalidInput()'><b>InvalidInput</b><br>Test class: TestCases.FinalTest</td>
+<td></td>
+<td>1</td>
+<td>TestCases.FinalTest@bef2d72</td></tr>
+<tr>
+<td title='TestCases.FinalTest.searchByWriter()'><b>searchByWriter</b><br>Test class: TestCases.FinalTest</td>
+<td></td>
+<td>1</td>
+<td>TestCases.FinalTest@bef2d72</td></tr>
+<tr>
+<td title='TestCases.FinalTest.refineBybinding()'><b>refineBybinding</b><br>Test class: TestCases.FinalTest</td>
+<td></td>
+<td>2</td>
+<td>TestCases.FinalTest@bef2d72</td></tr>
+<tr>
+<td title='TestCases.FinalTest.EmptyInput()'><b>EmptyInput</b><br>Test class: TestCases.FinalTest</td>
+<td></td>
+<td>1</td>
+<td>TestCases.FinalTest@bef2d72</td></tr>
+<tr>
+<td title='TestCases.FinalTest.mixInput()'><b>mixInput</b><br>Test class: TestCases.FinalTest</td>
+<td></td>
+<td>2</td>
+<td>TestCases.FinalTest@bef2d72</td></tr>
+<tr>
+<td title='TestCases.FinalTest.InvaidPage()'><b>InvaidPage</b><br>Test class: TestCases.FinalTest</td>
+<td></td>
+<td>3</td>
+<td>TestCases.FinalTest@bef2d72</td></tr>
+<tr>
+<td title='TestCases.FinalTest.refineByDiscount()'><b>refineByDiscount</b><br>Test class: TestCases.FinalTest</td>
+<td></td>
+<td>2</td>
+<td>TestCases.FinalTest@bef2d72</td></tr>
+<tr>
+<td title='TestCases.FinalTest.refineByPrice()'><b>refineByPrice</b><br>Test class: TestCases.FinalTest</td>
+<td></td>
+<td>2</td>
+<td>TestCases.FinalTest@bef2d72</td></tr>
+<tr>
+<td title='TestCases.FinalTest.endToEndTest()'><b>endToEndTest</b><br>Test class: TestCases.FinalTest</td>
+<td></td>
+<td>4</td>
+<td>TestCases.FinalTest@bef2d72</td></tr>
+<tr>
+<td title='TestCases.FinalTest.searchBook()'><b>searchBook</b><br>Test class: TestCases.FinalTest</td>
+<td></td>
+<td>2</td>
+<td>TestCases.FinalTest@bef2d72</td></tr>
+<tr>
+<td title='TestCases.FinalTest.listView()'><b>listView</b><br>Test class: TestCases.FinalTest</td>
+<td></td>
+<td>3</td>
+<td>TestCases.FinalTest@bef2d72</td></tr>
+<tr>
+<td title='TestCases.FinalTest.refineByLanguage()'><b>refineByLanguage</b><br>Test class: TestCases.FinalTest</td>
+<td></td>
+<td>2</td>
+<td>TestCases.FinalTest@bef2d72</td></tr>
+<tr>
+<td title='TestCases.FinalTest.addToWishlist()'><b>addToWishlist</b><br>Test class: TestCases.FinalTest</td>
+<td></td>
+<td>4</td>
+<td>TestCases.FinalTest@bef2d72</td></tr>
+<tr>
+<td title='TestCases.FinalTest.refineByTitle()'><b>refineByTitle</b><br>Test class: TestCases.FinalTest</td>
+<td></td>
+<td>2</td>
+<td>TestCases.FinalTest@bef2d72</td></tr>
+<tr>
+<td title='TestCases.FinalTest.refineBySource()'><b>refineBySource</b><br>Test class: TestCases.FinalTest</td>
+<td></td>
+<td>3</td>
+<td>TestCases.FinalTest@bef2d72</td></tr>
+<tr>
+<td title='TestCases.FinalTest.gridView()'><b>gridView</b><br>Test class: TestCases.FinalTest</td>
+<td></td>
+<td>2</td>
+<td>TestCases.FinalTest@bef2d72</td></tr>
+<tr>
+<td title='TestCases.FinalTest.shortby()'><b>shortby</b><br>Test class: TestCases.FinalTest</td>
+<td></td>
+<td>4</td>
+<td>TestCases.FinalTest@bef2d72</td></tr>
+</table><p>
+</body>
+</html>

@@ -2,248 +2,248 @@
 <testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-29T13:04:15 IST" name="Default suite" finished-at="2024-08-29T13:07:01 IST" duration-ms="165832">
+  <suite started-at="2024-08-30T15:05:06 IST" name="Default suite" finished-at="2024-08-30T15:07:43 IST" duration-ms="156967">
     <groups>
     </groups>
-    <test started-at="2024-08-29T13:04:15 IST" name="Default test" finished-at="2024-08-29T13:07:01 IST" duration-ms="165832">
+    <test started-at="2024-08-30T15:05:06 IST" name="Default test" finished-at="2024-08-30T15:07:43 IST" duration-ms="156967">
       <class name="TestCases.FinalTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:04:15 IST" name="setup" finished-at="2024-08-29T13:04:20 IST" duration-ms="4551" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:05:06 IST" name="setup" finished-at="2024-08-30T15:05:11 IST" duration-ms="5451" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="EmptyInput()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:04:20 IST" name="EmptyInput" finished-at="2024-08-29T13:04:21 IST" duration-ms="650" status="PASS">
+        <test-method signature="EmptyInput()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:05:11 IST" name="EmptyInput" finished-at="2024-08-30T15:05:13 IST" duration-ms="1454" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EmptyInput -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:04:21 IST" name="teardown" finished-at="2024-08-29T13:04:21 IST" duration-ms="167" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:05:13 IST" name="teardown" finished-at="2024-08-30T15:05:13 IST" duration-ms="376" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:04:21 IST" name="setup" finished-at="2024-08-29T13:04:26 IST" duration-ms="4899" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:05:13 IST" name="setup" finished-at="2024-08-30T15:05:17 IST" duration-ms="3799" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="InvaidPage()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:04:26 IST" name="InvaidPage" finished-at="2024-08-29T13:04:28 IST" duration-ms="2203" status="PASS">
+        <test-method signature="InvaidPage()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:05:17 IST" name="InvaidPage" finished-at="2024-08-30T15:05:21 IST" duration-ms="3558" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InvaidPage -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:04:28 IST" name="teardown" finished-at="2024-08-29T13:04:28 IST" duration-ms="160" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:05:21 IST" name="teardown" finished-at="2024-08-30T15:05:21 IST" duration-ms="178" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:04:28 IST" name="setup" finished-at="2024-08-29T13:04:31 IST" duration-ms="3550" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:05:21 IST" name="setup" finished-at="2024-08-30T15:05:26 IST" duration-ms="5116" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="InvalidInput()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:04:31 IST" name="InvalidInput" finished-at="2024-08-29T13:04:33 IST" duration-ms="1406" status="PASS">
+        <test-method signature="InvalidInput()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:05:26 IST" name="InvalidInput" finished-at="2024-08-30T15:05:27 IST" duration-ms="1257" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InvalidInput -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:04:33 IST" name="teardown" finished-at="2024-08-29T13:04:33 IST" duration-ms="167" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:05:27 IST" name="teardown" finished-at="2024-08-30T15:05:27 IST" duration-ms="163" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:04:33 IST" name="setup" finished-at="2024-08-29T13:04:38 IST" duration-ms="4563" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:05:27 IST" name="setup" finished-at="2024-08-30T15:05:32 IST" duration-ms="5048" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="addToCart()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:04:38 IST" name="addToCart" finished-at="2024-08-29T13:04:41 IST" duration-ms="3232" status="PASS">
+        <test-method signature="addToCart()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:05:32 IST" name="addToCart" finished-at="2024-08-30T15:05:36 IST" duration-ms="3496" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToCart -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:04:41 IST" name="teardown" finished-at="2024-08-29T13:04:41 IST" duration-ms="180" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:05:36 IST" name="teardown" finished-at="2024-08-30T15:05:36 IST" duration-ms="312" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:04:41 IST" name="setup" finished-at="2024-08-29T13:04:45 IST" duration-ms="3866" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:05:36 IST" name="setup" finished-at="2024-08-30T15:05:41 IST" duration-ms="4492" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="addToWishlist()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:04:45 IST" name="addToWishlist" finished-at="2024-08-29T13:04:48 IST" duration-ms="3304" status="PASS">
+        <test-method signature="addToWishlist()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:05:41 IST" name="addToWishlist" finished-at="2024-08-30T15:05:44 IST" duration-ms="3563" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToWishlist -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:04:48 IST" name="teardown" finished-at="2024-08-29T13:04:48 IST" duration-ms="151" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:05:44 IST" name="teardown" finished-at="2024-08-30T15:05:45 IST" duration-ms="585" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:04:48 IST" name="setup" finished-at="2024-08-29T13:04:52 IST" duration-ms="3254" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:05:45 IST" name="setup" finished-at="2024-08-30T15:05:50 IST" duration-ms="4754" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="clearSearchBox()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:04:52 IST" name="clearSearchBox" finished-at="2024-08-29T13:04:54 IST" duration-ms="2333" status="PASS">
+        <test-method signature="clearSearchBox()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:05:50 IST" name="clearSearchBox" finished-at="2024-08-30T15:05:52 IST" duration-ms="1990" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearSearchBox -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:04:54 IST" name="teardown" finished-at="2024-08-29T13:04:54 IST" duration-ms="292" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:05:52 IST" name="teardown" finished-at="2024-08-30T15:05:52 IST" duration-ms="198" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:04:54 IST" name="setup" finished-at="2024-08-29T13:05:04 IST" duration-ms="9668" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:05:52 IST" name="setup" finished-at="2024-08-30T15:05:56 IST" duration-ms="4498" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="endToEndTest()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:05:04 IST" name="endToEndTest" finished-at="2024-08-29T13:05:09 IST" duration-ms="4792" status="PASS">
+        <test-method signature="endToEndTest()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:05:56 IST" name="endToEndTest" finished-at="2024-08-30T15:06:00 IST" duration-ms="4121" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endToEndTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:05:09 IST" name="teardown" finished-at="2024-08-29T13:05:09 IST" duration-ms="183" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:06:00 IST" name="teardown" finished-at="2024-08-30T15:06:01 IST" duration-ms="343" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:05:09 IST" name="setup" finished-at="2024-08-29T13:05:12 IST" duration-ms="3340" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:06:01 IST" name="setup" finished-at="2024-08-30T15:06:05 IST" duration-ms="3841" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="gridView()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:05:12 IST" name="gridView" finished-at="2024-08-29T13:05:15 IST" duration-ms="3251" status="PASS">
+        <test-method signature="gridView()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:06:05 IST" name="gridView" finished-at="2024-08-30T15:06:08 IST" duration-ms="3156" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- gridView -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:05:15 IST" name="teardown" finished-at="2024-08-29T13:05:16 IST" duration-ms="183" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:06:08 IST" name="teardown" finished-at="2024-08-30T15:06:08 IST" duration-ms="180" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:05:16 IST" name="setup" finished-at="2024-08-29T13:05:26 IST" duration-ms="10015" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:06:08 IST" name="setup" finished-at="2024-08-30T15:06:13 IST" duration-ms="4637" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="listView()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:05:26 IST" name="listView" finished-at="2024-08-29T13:05:29 IST" duration-ms="3729" status="PASS">
+        <test-method signature="listView()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:06:13 IST" name="listView" finished-at="2024-08-30T15:06:16 IST" duration-ms="3545" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- listView -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:05:29 IST" name="teardown" finished-at="2024-08-29T13:05:30 IST" duration-ms="186" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:06:16 IST" name="teardown" finished-at="2024-08-30T15:06:16 IST" duration-ms="322" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:05:30 IST" name="setup" finished-at="2024-08-29T13:05:33 IST" duration-ms="3750" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:06:16 IST" name="setup" finished-at="2024-08-30T15:06:22 IST" duration-ms="5856" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="mixInput()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:05:33 IST" name="mixInput" finished-at="2024-08-29T13:05:35 IST" duration-ms="1832" status="PASS">
+        <test-method signature="mixInput()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:06:22 IST" name="mixInput" finished-at="2024-08-30T15:06:24 IST" duration-ms="2128" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mixInput -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:05:35 IST" name="teardown" finished-at="2024-08-29T13:05:35 IST" duration-ms="175" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:06:24 IST" name="teardown" finished-at="2024-08-30T15:06:25 IST" duration-ms="217" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:05:35 IST" name="setup" finished-at="2024-08-29T13:05:40 IST" duration-ms="4544" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:06:25 IST" name="setup" finished-at="2024-08-30T15:06:30 IST" duration-ms="5308" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="refineByAvailability()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:05:40 IST" name="refineByAvailability" finished-at="2024-08-29T13:05:42 IST" duration-ms="2503" status="PASS">
+        <test-method signature="refineByAvailability()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:06:30 IST" name="refineByAvailability" finished-at="2024-08-30T15:06:33 IST" duration-ms="3413" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- refineByAvailability -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:05:42 IST" name="teardown" finished-at="2024-08-29T13:05:43 IST" duration-ms="154" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:06:33 IST" name="teardown" finished-at="2024-08-30T15:06:34 IST" duration-ms="324" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:05:43 IST" name="setup" finished-at="2024-08-29T13:05:47 IST" duration-ms="3999" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:06:34 IST" name="setup" finished-at="2024-08-30T15:06:39 IST" duration-ms="4874" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="refineByDiscount()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:05:47 IST" name="refineByDiscount" finished-at="2024-08-29T13:05:50 IST" duration-ms="3423" status="PASS">
+        <test-method signature="refineByDiscount()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:06:39 IST" name="refineByDiscount" finished-at="2024-08-30T15:06:42 IST" duration-ms="3531" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- refineByDiscount -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:05:50 IST" name="teardown" finished-at="2024-08-29T13:05:50 IST" duration-ms="156" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:06:42 IST" name="teardown" finished-at="2024-08-30T15:06:42 IST" duration-ms="190" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:05:50 IST" name="setup" finished-at="2024-08-29T13:05:54 IST" duration-ms="3711" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:06:42 IST" name="setup" finished-at="2024-08-30T15:06:47 IST" duration-ms="4646" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="refineByLanguage()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:05:54 IST" name="refineByLanguage" finished-at="2024-08-29T13:05:57 IST" duration-ms="3116" status="PASS">
+        <test-method signature="refineByLanguage()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:06:47 IST" name="refineByLanguage" finished-at="2024-08-30T15:06:50 IST" duration-ms="3117" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- refineByLanguage -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:05:57 IST" name="teardown" finished-at="2024-08-29T13:05:57 IST" duration-ms="169" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:06:50 IST" name="teardown" finished-at="2024-08-30T15:06:50 IST" duration-ms="168" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:05:57 IST" name="setup" finished-at="2024-08-29T13:06:02 IST" duration-ms="4853" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:06:50 IST" name="setup" finished-at="2024-08-30T15:06:55 IST" duration-ms="5226" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="refineByPrice()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:06:02 IST" name="refineByPrice" finished-at="2024-08-29T13:06:04 IST" duration-ms="2391" status="PASS">
+        <test-method signature="refineByPrice()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:06:55 IST" name="refineByPrice" finished-at="2024-08-30T15:06:58 IST" duration-ms="2819" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- refineByPrice -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:06:04 IST" name="teardown" finished-at="2024-08-29T13:06:05 IST" duration-ms="168" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:06:58 IST" name="teardown" finished-at="2024-08-30T15:06:59 IST" duration-ms="322" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:06:05 IST" name="setup" finished-at="2024-08-29T13:06:17 IST" duration-ms="12127" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:06:59 IST" name="setup" finished-at="2024-08-30T15:07:02 IST" duration-ms="3846" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="refineBySource()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:06:17 IST" name="refineBySource" finished-at="2024-08-29T13:06:19 IST" duration-ms="2375" status="PASS">
+        <test-method signature="refineBySource()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:07:02 IST" name="refineBySource" finished-at="2024-08-30T15:07:06 IST" duration-ms="3150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- refineBySource -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:06:19 IST" name="teardown" finished-at="2024-08-29T13:06:19 IST" duration-ms="329" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:07:06 IST" name="teardown" finished-at="2024-08-30T15:07:06 IST" duration-ms="182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:06:19 IST" name="setup" finished-at="2024-08-29T13:06:24 IST" duration-ms="4900" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:07:06 IST" name="setup" finished-at="2024-08-30T15:07:11 IST" duration-ms="5020" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="refineByTitle()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:06:24 IST" name="refineByTitle" finished-at="2024-08-29T13:06:27 IST" duration-ms="2250" status="PASS">
+        <test-method signature="refineByTitle()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:07:11 IST" name="refineByTitle" finished-at="2024-08-30T15:07:13 IST" duration-ms="1981" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- refineByTitle -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:06:27 IST" name="teardown" finished-at="2024-08-29T13:06:27 IST" duration-ms="164" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:07:13 IST" name="teardown" finished-at="2024-08-30T15:07:13 IST" duration-ms="187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:06:27 IST" name="setup" finished-at="2024-08-29T13:06:31 IST" duration-ms="4622" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:07:13 IST" name="setup" finished-at="2024-08-30T15:07:17 IST" duration-ms="4510" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="refineBybinding()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:06:31 IST" name="refineBybinding" finished-at="2024-08-29T13:06:35 IST" duration-ms="3315" status="PASS">
+        <test-method signature="refineBybinding()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:07:17 IST" name="refineBybinding" finished-at="2024-08-30T15:07:21 IST" duration-ms="3353" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- refineBybinding -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:06:35 IST" name="teardown" finished-at="2024-08-29T13:06:35 IST" duration-ms="152" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:07:21 IST" name="teardown" finished-at="2024-08-30T15:07:21 IST" duration-ms="312" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:06:35 IST" name="setup" finished-at="2024-08-29T13:06:38 IST" duration-ms="3549" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:07:21 IST" name="setup" finished-at="2024-08-30T15:07:26 IST" duration-ms="4417" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="searchBook()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:06:38 IST" name="searchBook" finished-at="2024-08-29T13:06:41 IST" duration-ms="2269" status="PASS">
+        <test-method signature="searchBook()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:07:26 IST" name="searchBook" finished-at="2024-08-30T15:07:28 IST" duration-ms="2545" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchBook -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:06:41 IST" name="teardown" finished-at="2024-08-29T13:06:41 IST" duration-ms="164" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:07:28 IST" name="teardown" finished-at="2024-08-30T15:07:28 IST" duration-ms="202" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:06:41 IST" name="setup" finished-at="2024-08-29T13:06:52 IST" duration-ms="10982" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:07:28 IST" name="setup" finished-at="2024-08-30T15:07:33 IST" duration-ms="4906" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="searchByWriter()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:06:52 IST" name="searchByWriter" finished-at="2024-08-29T13:06:54 IST" duration-ms="1784" status="PASS">
+        <test-method signature="searchByWriter()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:07:33 IST" name="searchByWriter" finished-at="2024-08-30T15:07:35 IST" duration-ms="1833" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchByWriter -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:06:54 IST" name="teardown" finished-at="2024-08-29T13:06:54 IST" duration-ms="156" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:07:35 IST" name="teardown" finished-at="2024-08-30T15:07:35 IST" duration-ms="213" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:06:54 IST" name="setup" finished-at="2024-08-29T13:06:58 IST" duration-ms="4055" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:07:35 IST" name="setup" finished-at="2024-08-30T15:07:40 IST" duration-ms="4689" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="shortby()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:06:58 IST" name="shortby" finished-at="2024-08-29T13:07:01 IST" duration-ms="3150" status="PASS">
+        <test-method signature="shortby()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:07:40 IST" name="shortby" finished-at="2024-08-30T15:07:43 IST" duration-ms="2708" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shortby -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.FinalTest@75437611]" started-at="2024-08-29T13:07:01 IST" name="teardown" finished-at="2024-08-29T13:07:01 IST" duration-ms="159" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.FinalTest@28261e8e]" started-at="2024-08-30T15:07:43 IST" name="teardown" finished-at="2024-08-30T15:07:43 IST" duration-ms="199" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
