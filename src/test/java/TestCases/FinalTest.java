@@ -13,7 +13,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-import com.aventstack.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
 
 import PageClasses.HomePage;
 import PageClasses.SearchedPage;
@@ -41,8 +41,7 @@ public class FinalTest extends BaseTest{
 	
 	@Test
 	public void searchBook() throws IOException {
-		
-		
+				
 		hPage = new HomePage(driver);
 		hPage.search(book1);
 		hPage.getSearchButton().click();
@@ -51,6 +50,8 @@ public class FinalTest extends BaseTest{
 		as.assertEquals(driver.getTitle(), "the hidden hindu - Books - 24x7 online bookstore Bookswagon.com");
 		
 		capture(driver, 1);
+		Test.log(LogStatus.PASS, "Search the 'the hidden hindu - Books' ");
+		
 	}
 	
 	
@@ -66,6 +67,8 @@ public class FinalTest extends BaseTest{
 		sPage.getGridviewElement().click();
 		
 		capture(driver, 2);
+		Test.log(LogStatus.PASS, "Changing into grid view");
+
 	}
 	
 	
@@ -85,6 +88,8 @@ public class FinalTest extends BaseTest{
 		sPage.getListviewElement2().click();
 		
 		capture(driver, 3);
+		
+		Test.log(LogStatus.PASS, "Changing into list view");
 		
 	}
 	
@@ -108,6 +113,9 @@ public class FinalTest extends BaseTest{
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
 		capture(driver, 4);
+		
+		Test.log(LogStatus.PASS, "Add to cart the searched book");
+
 	}
 	
 	
@@ -125,6 +133,9 @@ public class FinalTest extends BaseTest{
 		sPage.getWishlistButtonElement().click();
 		
 		capture(driver, 5);
+		
+		Test.log(LogStatus.PASS, "Add to wishlist");
+
 	}
 	
 	
@@ -145,6 +156,9 @@ public class FinalTest extends BaseTest{
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
 		capture(driver, 6);
+		
+		Test.log(LogStatus.PASS, "Short by the search");
+
 	}
 	
 	
@@ -162,6 +176,9 @@ public class FinalTest extends BaseTest{
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
 		capture(driver, 7);
+		
+		Test.log(LogStatus.PASS, "Giving the invaild input in the search box");
+
 	}
 	
 	
@@ -179,6 +196,9 @@ public class FinalTest extends BaseTest{
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
 		capture(driver, 8);
+		
+		Test.log(LogStatus.PASS, "Search the book by the writter's name");
+
 	}
 	
 	
@@ -197,6 +217,9 @@ public class FinalTest extends BaseTest{
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
 		capture(driver, 9);
+		
+		Test.log(LogStatus.PASS, "Clear the search box field");
+
 	}
 	
 	
@@ -211,6 +234,9 @@ public class FinalTest extends BaseTest{
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
 		capture(driver, 10);
+		
+		Test.log(LogStatus.PASS, "Empty input in search box");
+
 	}
 	
 	
@@ -228,6 +254,9 @@ public class FinalTest extends BaseTest{
 		as.assertEquals(driver.findElements(By.xpath("(//a[@href=\"https://www.bookswagon.com/book/half-girlfriend-chetan-bhagat/9788129135728\"])[2]")), "Half Girlfriend");
 
 		capture(driver, 11);
+		
+		Test.log(LogStatus.PASS, "Giving the mixInput in the search box");
+
 	}
 	
 	
@@ -248,6 +277,9 @@ public class FinalTest extends BaseTest{
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
 		capture(driver, 12);
+		
+		Test.log(LogStatus.PASS, "Refine the search by the title");
+
 	}
 	
 	
@@ -268,6 +300,9 @@ public class FinalTest extends BaseTest{
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
 		capture(driver, 13);
+		
+		Test.log(LogStatus.PASS, "Refine the search by the price");
+
 	}
 	
 	
@@ -288,6 +323,9 @@ public class FinalTest extends BaseTest{
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
 		capture(driver, 14);
+		
+		Test.log(LogStatus.PASS, "Refine the search by the discount");
+
 	}
 	
 	
@@ -308,6 +346,9 @@ public class FinalTest extends BaseTest{
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
 		capture(driver, 15);
+		
+		Test.log(LogStatus.PASS, "Refine the search by the availability");
+
 	}
 	
 	
@@ -328,6 +369,9 @@ public class FinalTest extends BaseTest{
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
 		capture(driver, 16);
+		
+		Test.log(LogStatus.PASS, "Refine the search by the language");
+
 	}
 	
 	
@@ -348,6 +392,9 @@ public class FinalTest extends BaseTest{
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
 		capture(driver, 17);
+		
+		Test.log(LogStatus.PASS, "Refine the search by the source");
+
 	}
 	
 	
@@ -368,6 +415,9 @@ public class FinalTest extends BaseTest{
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
 		capture(driver, 18);
+		
+		Test.log(LogStatus.PASS, "Refine the search by the binding");
+
 	}
 	
 	
@@ -385,6 +435,9 @@ public class FinalTest extends BaseTest{
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
 		driver.findElement(By.cssSelector("[value=\"Go Back\"]")).click();
+		
+		Test.log(LogStatus.PASS, "Check the 404 invalid page 'Go Back button'");
+
 	}
 	
 	
@@ -411,6 +464,9 @@ public class FinalTest extends BaseTest{
 		driver.findElement(By.cssSelector("[id=\"ctl00_phBody_BookCart_lvCart_ctrl0_imgDelete\"]")).click();
 		
 		capture(driver, 20);
+		
+		Test.log(LogStatus.PASS, "End to End testing");
+
 		
 	}
 	
